@@ -3,7 +3,7 @@
 # 📂 Vault
 
 vault:
-  kit_folder: 'C:\Users\McKenna Skoczen\Documents\obsidian\DnD\skocz'
+  kit_folder: 'C:\Users\McKenna Skoczen\Documents\obsidian\infelixSomnia.github.io\docs'
   include: 
     - '^(kitrc|index|navbar).md$'
     - '^2-World'
