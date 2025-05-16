@@ -1,0 +1,44 @@
+## Campaign Rundown
+ ```dataview
+TABLE WITHOUT ID link(file.name) AS "Session Date", Status, players
+from "1-Session Journals"
+SORT file.name DESC
+```
+
+
+## Player Information
+```dataview
+TABLE WITHOUT ID link(file.name) AS "Character Name", player AS "Player", hp AS "Hit Points", ac AS "Armor Class"
+from "1-Party"
+where contains(Role, "player") 
+where contains(Status, "Active")
+```
+<br>
+
+```dataview
+TABLE WITHOUT ID link(file.name) AS "Character Name", pasperc As "Passive Perception", str AS "Strength", dex AS "Dexterity", con AS "Consitiution", int AS "Intelligence", wis AS "Wisdom", cha AS "Charisma"
+from "1-Party"
+where contains(Role, "player") 
+where contains(Status, "Active")
+```
+<br>
+
+
+## Known Languages
+
+%% This will scan the player notes for any known languages and list the unique languages that the party know here. This is handy to determine quickly if the party can understand someone. %%
+
+```dataviewjs
+dv.list(dv.pages()
+		.where(p => p.Status && p.Status.includes("Active") && p.Role && p.Role.includes("player"))
+		.languages.distinct())
+```
+
+# Skills
+%% This will scan the player notes for all proficiencies and list the unique proficiencies that the party has here. %%
+
+```dataviewjs
+dv.list(dv.pages()
+		.where(p => p.Status && p.Status.includes("Active") && p.Role && p.Role.includes("player"))
+		.proficiencies.distinct())
+```

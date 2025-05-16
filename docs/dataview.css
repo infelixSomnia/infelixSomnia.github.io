@@ -1,0 +1,338 @@
+div.char-race:has( table.dataview) table.dataview {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+    display: flex !important;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center !important;
+    padding: 0.75rem;
+    border-radius: 0.4rem;
+    background-color: #262a36;
+    color: #e0e0e0;
+    border: 1px solid #383e54;
+    min-height: 80px;
+}
+
+div.char-langs:has( table.dataview) table.dataview {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+    display: flex !important;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center !important;
+    padding: 0.75rem;
+    border-radius: 0.4rem;
+    background-color: #262a36;
+    color: #e0e0e0;
+    border: 1px solid #383e54;
+    min-height: 80px;
+}
+
+div.char-class:has( table.dataview) table.dataview {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+    display: flex !important;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center !important;
+    padding: 0.75rem;
+    border-radius: 0.4rem;
+    background-color: #262a36;
+    color: #e0e0e0;
+    border: 1px solid #383e54;
+    min-height: 80px;
+}
+
+div.char-subclass:has( table.dataview) table.dataview {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+    display: flex !important;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center !important;
+    padding: 0.75rem;
+    border-radius: 0.4rem;
+    background-color: #262a36;
+    color: #e0e0e0;
+    border: 1px solid #383e54;
+    min-height: 80px;
+}
+
+div.druid-shape:has( table.dataview) table.dataview {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+    display: flex !important;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center !important;
+    padding: 0.75rem;
+    border-radius: 0.4rem;
+    background-color: #262a36;
+    color: #e0e0e0;
+    border: 1px solid #383e54;
+    min-height: 80px;
+}
+
+div.char-race:has( table.dataview) thead tr{
+    background-color: #262a36;
+    font-weight: normal !important; 
+    align-content: center;
+    text-align: center !important;
+}
+
+div.char-langs:has( table.dataview) thead tr{
+    background-color: #262a36;
+    font-weight: normal !important; 
+    align-content: center;
+    text-align: center !important;
+}
+
+div.char-class:has( table.dataview) thead tr{
+    background-color: #262a36;
+    font-weight: normal !important;
+    align-content: center;
+    text-align: center !important;
+}
+
+div.char-subclass:has( table.dataview) thead tr{
+    background-color: #262a36;
+    font-weight: normal !important;
+    align-content: center;
+    text-align: center !important;
+}
+
+div.druid-shape:has( table.dataview) thead tr{
+    background-color: #262a36;
+    font-weight: normal !important; 
+    align-content: center;
+    text-align: center !important;
+}
+
+div.char-race:has( table.dataview) thead th{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+    font-size: 0.8rem;
+    font-weight: normal !important;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+    text-align: center !important;
+    border: none;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border-bottom-style: none;
+    text-transform: uppercase;
+    tab-size: 4 !important;
+    max-width: 99%;
+    letter-spacing: 1px;
+    color: #a0a0d0;
+    margin-bottom: 0.5rem;
+}
+
+div.char-langs:has( table.dataview) thead th{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+    font-size: 0.8rem;
+    font-weight: normal !important;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+    text-align: center !important;
+    border: none;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border-bottom-style: none;
+    text-transform: uppercase;
+    tab-size: 4 !important;
+    max-width: 99%;
+    letter-spacing: 1px;
+    color: #a0a0d0;
+    margin-bottom: 0.5rem;
+}
+
+div.char-class:has( table.dataview) thead th{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+    font-size: 0.8rem;
+    font-weight: normal !important;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+    text-align: center !important;
+    border: none;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border-bottom-style: none;
+    text-transform: uppercase;
+    tab-size: 4 !important;
+    max-width: 99%;
+    letter-spacing: 1px;
+    color: #a0a0d0;
+    margin-bottom: 0.5rem;
+}
+
+div.char-subclass:has( table.dataview) thead th{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+    font-size: 0.8rem;
+    font-weight: normal !important;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+    text-align: center !important;
+    border: none;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border-bottom-style: none;
+    text-transform: uppercase;
+    tab-size: 4 !important;
+    max-width: 99%;
+    letter-spacing: 1px;
+    color: #a0a0d0;
+    margin-bottom: 0.5rem;
+}
+
+div.druid-shape:has( table.dataview) thead th{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+    font-size: 0.8rem;
+    font-weight: normal !important;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+    text-align: center !important;
+    border: none;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border-bottom-style: none;
+    text-transform: uppercase;
+    tab-size: 4 !important;
+    max-width: 99%;
+    letter-spacing: 1px;
+    color: #a0a0d0;
+    margin-bottom: 0.5rem;
+}
+
+div.char-race:has( table.dataview) thead th span.el-p{
+    align-self: center;
+    text-align: center !important;
+}
+
+div.char-langs:has( table.dataview) thead th span.el-p{
+    align-self: center;
+    text-align: center !important;
+}
+
+div.char-class:has( table.dataview) thead th span.el-p{
+    align-self: center;
+    text-align: center !important;
+}
+
+div.char-subclass:has( table.dataview) thead th span.el-p{
+    align-self: center;
+    text-align: center !important;
+}
+
+div.druid-shape:has( table.dataview) thead th span.el-p{
+    align-self: center;
+    text-align: center !important;
+}
+
+div.char-race:has( table.dataview) tbody td{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+    font-size: 1.2rem;
+    background-color: #262a36;
+    font-weight: 700 !important;
+    text-align: center;
+    tab-size: 4 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    color: #ffffff !important;
+}
+
+div.char-langs:has( table.dataview) tbody td{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+    font-size: 1.2rem;
+    background-color: #262a36;
+    font-weight: 700 !important;
+    text-align: center;
+    tab-size: 4 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    color: #ffffff !important;
+}
+
+div.char-class:has( table.dataview) tbody td{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+    font-size: 1.2rem;
+    background-color: #262a36;
+    font-weight: 700 !important;
+    text-align: center;
+    tab-size: 4 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    color: #ffffff !important;
+}
+
+div.char-subclass:has( table.dataview) tbody td{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+    font-size: 1.2rem;
+    background-color: #262a36;
+    font-weight: 700 !important;
+    text-align: center;
+    tab-size: 4 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    color: #ffffff !important;
+}
+
+div.druid-shape:has( table.dataview) tbody td{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+    font-size: 1.2rem;
+    background-color: #262a36;
+    font-weight: 700 !important;
+    text-align: center;
+    tab-size: 4 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    color: #ffffff !important;
+}
+
+div.char-race:has( table.dataview) tbody td a {
+    font-weight: 700 !important;
+    color: #ffffff !important;
+}
+
+div.char-langs:has( table.dataview) tbody td a {
+    font-weight: 700 !important;
+    color: #ffffff !important;
+}
+
+div.char-class:has( table.dataview) tbody td a {
+    font-weight: 700 !important;
+    color: #ffffff !important;
+}
+
+div.char-subclass:has( table.dataview) tbody td a {
+    font-weight: 700 !important;
+    color: #ffffff !important;
+}
+
+div.druid-shape:has( table.dataview) tbody td a {
+    font-weight: 700 !important;
+    color: #ffffff !important;
+}
+
+div.el-div > div.callout > div.callout-content {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+span.dataview.small-text {
+    visibility : hidden;
+}
