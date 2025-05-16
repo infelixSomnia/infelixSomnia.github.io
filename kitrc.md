@@ -49,6 +49,7 @@ plugins:
   dataview: '@dataview'
   templater: '@templater-obsidian'
   dnd-ui: 'https://github.com/hay-kot/obsidian-dnd-ui-toolkit.git'
+  custom-frames: 'obsidian-custom-frames'
 
 
 

@@ -1,44 +1,185 @@
-## Campaign Rundown
- ```dataview
-TABLE WITHOUT ID link(file.name) AS "Session Date", Status, players
-from "1-Session Journals"
-SORT file.name DESC
-```
+<!DOCTYPE html>
+<html>
 
+<head>
+  <title>Welcome</title>
+  <meta charset="utf-8" />
+  <meta name="url" content="https://publish.obsidian.md/skocz/" />
+  <meta name="title" content="Welcome" />
+  <meta name="description" content="Welcome to https://publish.obsidian.md/skocz/" />
+  <meta name="image" content="https://publishkit.dev/attachements/og-image.png" />
+  <meta name="name" content="https://publish.obsidian.md/skocz/" />
+  <meta name="keyswords" content="publishkit, blogging, markdown" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta property="og:image" content="https://publishkit.dev/attachements/og-image.png" />
+  <meta property="og:url" content="https://publish.obsidian.md/skocz/" />
+  <meta property="og:title" content="Welcome" />
+  <meta property="og:description" content="Welcome to https://publish.obsidian.md/skocz/" />
+  <meta property="og:site_name" content="https://publish.obsidian.md/skocz/" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/publishkit/kit@latest/init.js"></script>
+</head>
 
-## Player Information
-```dataview
-TABLE WITHOUT ID link(file.name) AS "Character Name", player AS "Player", hp AS "Hit Points", ac AS "Armor Class"
-from "1-Party"
-where contains(Role, "player") 
-where contains(Status, "Active")
-```
-<br>
+<body>
+  <template id="frontmatter">
+    {}
+  </template>
+  <template id="content">
+    <div class="metadata-container" tabindex="-1" data-property-count="0">
+      <div class="metadata-error-container" style="display: none;"></div>
+      <div class="metadata-properties-heading" tabindex="0">
+        <div class="metadata-properties-title">Properties</div>
+      </div>
+      <div class="metadata-content">
+        <div class="metadata-properties"></div>
+        <div class="metadata-add-button text-icon-button" tabindex="0"><span class="text-button-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-plus">
+              <path d="M5 12h14"></path>
+              <path d="M12 5v14"></path>
+            </svg></span><span class="text-button-label">Add property</span></div>
+      </div>
+    </div>
+    <h2 dir="auto">Campaign Rundown</h2>
+    <div class="block-language-dataview node-insert-event" style="overflow-x: auto;">
+      <table class="dataview">
+        <thead class="table-view-thead">
+          <tr class="table-view-tr-header">
+            <th class="table-view-th"><span data-tag-name="p" class="el-p">Session Date</span></th>
+            <th class="table-view-th"><span data-tag-name="p" class="el-p">Status</span></th>
+            <th class="table-view-th"><span data-tag-name="p" class="el-p">players</span></th>
+          </tr>
+        </thead>
+        <tbody class="table-view-tbody">
+          <tr>
+            <td><span data-tag-name="p" class="el-p"><a data-tooltip-position="top" href="1-Session Journals/05-04-2025.html" class="data-link-icon data-link-icon-after data-link-text internal-link" data-link-tags="#journal" data-link-noteicon="journal" data-link-path="1-Session Journals/05-04-2025.md" style="--data-link-tags: #journal; --data-link-NoteIcon: journal; --data-link-path: 1-Session Journals/05-04-2025.md;">05-04-2025</a></span></td>
+            <td>
+              <ul class="dataview dataview-ul dataview-result-list-ul">
+                <li class="dataview-result-list-li"><span data-tag-name="p" class="el-p">✅</span></li>
+              </ul>
+            </td>
+            <td>5</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h2 dir="auto">Player Information</h2>
+    <div class="block-language-dataview node-insert-event" style="overflow-x: auto;">
+      <table class="dataview">
+        <thead class="table-view-thead">
+          <tr class="table-view-tr-header">
+            <th class="table-view-th"><span data-tag-name="p" class="el-p">Character Name</span></th>
+            <th class="table-view-th"><span data-tag-name="p" class="el-p">Player</span></th>
+            <th class="table-view-th"><span data-tag-name="p" class="el-p">Hit Points</span></th>
+            <th class="table-view-th"><span data-tag-name="p" class="el-p">Armor Class</span></th>
+          </tr>
+        </thead>
+        <tbody class="table-view-tbody">
+          <tr>
+            <td><span data-tag-name="p" class="el-p"><a data-tooltip-position="top" href="1-Party/the Knuckleheads/Dingledorf.html" class="data-link-icon data-link-icon-after data-link-text internal-link" data-link-tags="#player" data-link-noteicon="DnSword" data-link-path="1-Party/the Knuckleheads/Dingledorf.md" style="--data-link-tags: #player; --data-link-NoteIcon: DnSword; --data-link-path: 1-Party/the Knuckleheads/Dingledorf.md;">Dingledorf</a></span></td>
+            <td><span data-tag-name="p" class="el-p">Gavin</span></td>
+            <td>24</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td><span data-tag-name="p" class="el-p"><a data-tooltip-position="top" href="1-Party/the Knuckleheads/Azrael Shadowsong.html" class="data-link-icon data-link-icon-after data-link-text internal-link" data-link-tags="#player" data-link-noteicon="DnSword" data-link-path="1-Party/the Knuckleheads/Azrael Shadowsong.md" style="--data-link-tags: #player; --data-link-NoteIcon: DnSword; --data-link-path: 1-Party/the Knuckleheads/Azrael Shadowsong.md;">Azrael Shadowsong</a></span></td>
+            <td><span data-tag-name="p" class="el-p">Noah</span></td>
+            <td>20</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td><span data-tag-name="p" class="el-p"><a data-tooltip-position="top" href="1-Party/the Knuckleheads/Mordrin.html" class="data-link-icon data-link-icon-after data-link-text internal-link" data-link-tags="#player" data-link-noteicon="DnSword" data-link-path="1-Party/the Knuckleheads/Mordrin.md" style="--data-link-tags: #player; --data-link-NoteIcon: DnSword; --data-link-path: 1-Party/the Knuckleheads/Mordrin.md;">Mordrin</a></span></td>
+            <td><span data-tag-name="p" class="el-p">Rick</span></td>
+            <td>24</td>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td><span data-tag-name="p" class="el-p"><a data-tooltip-position="top" href="1-Party/the Knuckleheads/Mantix Starkguard.html" class="data-link-icon data-link-icon-after data-link-text internal-link" data-link-tags="#player" data-link-noteicon="DnSword" data-link-path="1-Party/the Knuckleheads/Mantix Starkguard.md" style="--data-link-tags: #player; --data-link-NoteIcon: DnSword; --data-link-path: 1-Party/the Knuckleheads/Mantix Starkguard.md;">Mantix Starkguard</a></span></td>
+            <td><span data-tag-name="p" class="el-p">Dave</span></td>
+            <td>32</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td><span data-tag-name="p" class="el-p"><a data-tooltip-position="top" href="1-Party/the Knuckleheads/Orochi.html" class="data-link-icon data-link-icon-after data-link-text internal-link" data-link-tags="#player" data-link-noteicon="DnSword" data-link-path="1-Party/the Knuckleheads/Orochi.md" style="--data-link-tags: #player; --data-link-NoteIcon: DnSword; --data-link-path: 1-Party/the Knuckleheads/Orochi.md;">Orochi</a></span></td>
+            <td><span data-tag-name="p" class="el-p">Bianca</span></td>
+            <td>21</td>
+            <td>16</td>
+          </tr>
+        </tbody>
+      </table>
+    </div><br>
+    <div class="block-language-dataview node-insert-event" style="overflow-x: auto;">
+      <table class="dataview">
+        <thead class="table-view-thead">
+          <tr class="table-view-tr-header">
+            <th class="table-view-th"><span data-tag-name="p" class="el-p">Character Name</span></th>
+            <th class="table-view-th"><span data-tag-name="p" class="el-p">Passive Perception</span></th>
+            <th class="table-view-th"><span data-tag-name="p" class="el-p">Strength</span></th>
+            <th class="table-view-th"><span data-tag-name="p" class="el-p">Dexterity</span></th>
+            <th class="table-view-th"><span data-tag-name="p" class="el-p">Consitiution</span></th>
+            <th class="table-view-th"><span data-tag-name="p" class="el-p">Intelligence</span></th>
+            <th class="table-view-th"><span data-tag-name="p" class="el-p">Wisdom</span></th>
+            <th class="table-view-th"><span data-tag-name="p" class="el-p">Charisma</span></th>
+          </tr>
+        </thead>
+        <tbody class="table-view-tbody">
+          <tr>
+            <td><span data-tag-name="p" class="el-p"><a data-tooltip-position="top" href="1-Party/the Knuckleheads/Dingledorf.html" class="data-link-icon data-link-icon-after data-link-text internal-link" data-link-tags="#player" data-link-noteicon="DnSword" data-link-path="1-Party/the Knuckleheads/Dingledorf.md" style="--data-link-tags: #player; --data-link-NoteIcon: DnSword; --data-link-path: 1-Party/the Knuckleheads/Dingledorf.md;">Dingledorf</a></span></td>
+            <td>15</td>
+            <td>8</td>
+            <td>15</td>
+            <td>14</td>
+            <td>10</td>
+            <td>16</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td><span data-tag-name="p" class="el-p"><a data-tooltip-position="top" href="1-Party/the Knuckleheads/Azrael Shadowsong.html" class="data-link-icon data-link-icon-after data-link-text internal-link" data-link-tags="#player" data-link-noteicon="DnSword" data-link-path="1-Party/the Knuckleheads/Azrael Shadowsong.md" style="--data-link-tags: #player; --data-link-NoteIcon: DnSword; --data-link-path: 1-Party/the Knuckleheads/Azrael Shadowsong.md;">Azrael Shadowsong</a></span></td>
+            <td>12</td>
+            <td>8</td>
+            <td>12</td>
+            <td>15</td>
+            <td>10</td>
+            <td>14</td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td><span data-tag-name="p" class="el-p"><a data-tooltip-position="top" href="1-Party/the Knuckleheads/Mordrin.html" class="data-link-icon data-link-icon-after data-link-text internal-link" data-link-tags="#player" data-link-noteicon="DnSword" data-link-path="1-Party/the Knuckleheads/Mordrin.md" style="--data-link-tags: #player; --data-link-NoteIcon: DnSword; --data-link-path: 1-Party/the Knuckleheads/Mordrin.md;">Mordrin</a></span></td>
+            <td>13</td>
+            <td>10</td>
+            <td>12</td>
+            <td>14</td>
+            <td>9</td>
+            <td>16</td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td><span data-tag-name="p" class="el-p"><a data-tooltip-position="top" href="1-Party/the Knuckleheads/Mantix Starkguard.html" class="data-link-icon data-link-icon-after data-link-text internal-link" data-link-tags="#player" data-link-noteicon="DnSword" data-link-path="1-Party/the Knuckleheads/Mantix Starkguard.md" style="--data-link-tags: #player; --data-link-NoteIcon: DnSword; --data-link-path: 1-Party/the Knuckleheads/Mantix Starkguard.md;">Mantix Starkguard</a></span></td>
+            <td>12</td>
+            <td>15</td>
+            <td>13</td>
+            <td>14</td>
+            <td>14</td>
+            <td>10</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td><span data-tag-name="p" class="el-p"><a data-tooltip-position="top" href="1-Party/the Knuckleheads/Orochi.html" class="data-link-icon data-link-icon-after data-link-text internal-link" data-link-tags="#player" data-link-noteicon="DnSword" data-link-path="1-Party/the Knuckleheads/Orochi.md" style="--data-link-tags: #player; --data-link-NoteIcon: DnSword; --data-link-path: 1-Party/the Knuckleheads/Orochi.md;">Orochi</a></span></td>
+            <td>10</td>
+            <td>8</td>
+            <td>16</td>
+            <td>12</td>
+            <td>14</td>
+            <td>10</td>
+            <td>15</td>
+          </tr>
+        </tbody>
+      </table>
+    </div><br>
+    <h2 dir="auto">Known Languages</h2>
+    <p dir="auto"></p>
+    <ul>undefined</ul>
+    <h1 dir="auto">Skills</h1>
+    <p dir="auto"></p>
+    <ul>undefined</ul>
+  </template>
+</body>
 
-```dataview
-TABLE WITHOUT ID link(file.name) AS "Character Name", pasperc As "Passive Perception", str AS "Strength", dex AS "Dexterity", con AS "Consitiution", int AS "Intelligence", wis AS "Wisdom", cha AS "Charisma"
-from "1-Party"
-where contains(Role, "player") 
-where contains(Status, "Active")
-```
-<br>
-
-
-## Known Languages
-
-%% This will scan the player notes for any known languages and list the unique languages that the party know here. This is handy to determine quickly if the party can understand someone. %%
-
-```dataviewjs
-dv.list(dv.pages()
-		.where(p => p.Status && p.Status.includes("Active") && p.Role && p.Role.includes("player"))
-		.languages.distinct())
-```
-
-# Skills
-%% This will scan the player notes for all proficiencies and list the unique proficiencies that the party has here. %%
-
-```dataviewjs
-dv.list(dv.pages()
-		.where(p => p.Status && p.Status.includes("Active") && p.Role && p.Role.includes("player"))
-		.proficiencies.distinct())
-```
+</html>
