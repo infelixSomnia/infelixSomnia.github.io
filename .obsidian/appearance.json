@@ -1,0 +1,20 @@
+{
+  "accentColor": "#7ac478",
+  "cssTheme": "ITS Theme",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "S - Encoded Fonts",
+    "S - Encoded Icons",
+    "supercharged-links-gen",
+    "dnd5e-float-images",
+    "FantasyFonts",
+    "dnd5e-only-admonitions",
+    "dnd5e-only-statblock",
+    "hide-markdown-link-url",
+    "HoverProperties_-_Columns",
+    "Tab_Icons",
+    "callout",
+    "dataview"
+  ],
+  "baseFontSize": 15
+}

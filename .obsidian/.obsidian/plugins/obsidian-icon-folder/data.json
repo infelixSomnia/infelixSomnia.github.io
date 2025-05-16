@@ -1,0 +1,85 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "OcPerson16",
+      "DnSword",
+      "RiGroup3Line",
+      "LiVault",
+      "LiCalculator"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": true,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": true,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": false,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "1-Party/Example Party 1/Dave.md": {
+    "iconName": "DnSword"
+  },
+  "z_Templates/NewPlayerTemplate.md": "DnSword",
+  "1-Party/the Knuckleheads/Azrael Shadowsong.md": "DnSword",
+  "z_Templates/TemplateQuest.md": "DnTrack",
+  "z_Templates/TemplateSettlement.md": "DnTower",
+  "2-World/Riverbend/Riverbend.md": "DnTower",
+  "2-World/Riverbend": "DnTower",
+  "2-World/Faerun": "DnTower",
+  "z_Templates/TemplateJournal.md": "DnLogs",
+  "z_Templates/TemplateMagicItem.md": "DnMagicWand",
+  "z_Templates/TemplateNPC.md": {
+    "iconName": "OcPerson16",
+    "iconColor": "white"
+  },
+  "z_Templates/TemplateNPC_WB.md": {
+    "iconName": "OcPerson16",
+    "iconColor": "white"
+  },
+  "3-Mechanics/NPCs/Thoorny Quain.md": {
+    "iconName": "OcPerson16",
+    "iconColor": "white"
+  },
+  "1-Party/the Knuckleheads/Orochi.md": "DnSword",
+  "1-Party/the Knuckleheads/Mantix Starkguard.md": "DnSword",
+  "1-Party/the Knuckleheads/Mordrin.md": "DnSword",
+  "1-Party/the Knuckleheads/Dingledorf.md": "DnSword",
+  "1-Session Journals/05-04-2025.md": "DnLogs",
+  "1-DM Toolkit/Home.md": "DnStar",
+  "1-DM Toolkit/DM Board.md": "DnFolder",
+  "1-DM Toolkit/DnD5e-DM Screen-2014.md": "DnFiles",
+  "1-DM Toolkit/DnD5e-SideScreen-2014.md": "DnFile",
+  "2-Campaign/Quests/Band of Bandits.md": "DnTrack",
+  "1-DM Toolkit/Journey Board.md": "DnPin",
+  "1-DM Toolkit/Map Calculator.md": {
+    "iconName": "LiCalculator",
+    "iconColor": "#ffffff"
+  },
+  "1-DM Toolkit/Vault Report.md": {
+    "iconName": "LiVault",
+    "iconColor": "#ffffff"
+  },
+  "2-World/Faerun/Faerun.md": "DnTower",
+  "z_Templates/TemplateGroup.md": {
+    "iconName": "RiGroup3Line",
+    "iconColor": "white"
+  }
+}

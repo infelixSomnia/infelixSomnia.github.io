@@ -1,0 +1,476 @@
+{
+  "main": {
+    "id": "35dc58889efc7af6",
+    "type": "split",
+    "children": [
+      {
+        "id": "931916d9d15297a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a9a89efa2182205",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kitrc.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "kitrc"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ef2fa061dc384dbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "776915f0f047e046",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2911de48d50d504c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f7191f1a02d83b6c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"Class\"]",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6da38734e1b60552",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "2e6355ae312b2c82",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-DM Toolkit/DnD5e-SideScreen-2014.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "DnD5e-SideScreen-2014"
+            }
+          },
+          {
+            "id": "f6ef017cc52d2e49",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-DM Toolkit/DM Board.md",
+                "mode": "preview",
+                "source": true
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "DM Board"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 334.5
+  },
+  "right": {
+    "id": "4376769ea3073bd6",
+    "type": "split",
+    "children": [
+      {
+        "id": "09384058bb1c4e72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01866bcbc2fd8a19",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "z_Templates/NewPlayer Template Tester.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for NewPlayer Template Tester"
+            }
+          },
+          {
+            "id": "505cdf32bf6b016b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "0-Scratch Notes/New World.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from New World"
+            }
+          },
+          {
+            "id": "e0476cfc571d360e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "734965fc2bb6a962",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "3-Mechanics/CLI/races/dragonborn-gem-ftd.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of dragonborn-gem-ftd"
+            }
+          },
+          {
+            "id": "ba8932f2577ce8ab",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "a524ae8dcec1f2ae",
+            "type": "leaf",
+            "state": {
+              "type": "inline-scripts-button-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "b9489213cecf8b1b",
+            "type": "leaf",
+            "state": {
+              "type": "MAIN_VIEW",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "42f43382fd4fd4b3",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "90c3cb7e74b48b0d",
+            "type": "leaf",
+            "state": {
+              "type": "inline-scripts-button-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "c308d8f82c920c58",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-dave-char-sheet",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "93b13992c972f1cf",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "c898efe0660cc5bc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "a0fc8f411c4da078",
+            "type": "leaf",
+            "state": {
+              "type": "inline-scripts-button-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "59ebe4845ba5a333",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "b8f6c4a0b8596a68",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "9224f341db8ab768",
+            "type": "leaf",
+            "state": {
+              "type": "inline-scripts-button-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "e479d4b2116f05ab",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "6716f48afca26432",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "572c1d85b690ed79",
+            "type": "leaf",
+            "state": {
+              "type": "inline-scripts-button-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "0f5b237c8dc0a74b",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "3cfdb415906e2d22",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "a596e6e3e1d632ed",
+            "type": "leaf",
+            "state": {
+              "type": "inline-scripts-button-view",
+              "state": {},
+              "icon": "inline-scripts-button-view",
+              "title": "Inline Scripts - Buttons"
+            }
+          },
+          {
+            "id": "68b7b45435ff35f3",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
+            }
+          },
+          {
+            "id": "f530a017fb6317c3",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
+          }
+        ],
+        "currentTab": 14
+      }
+    ],
+    "direction": "horizontal",
+    "width": 484.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "command-palette:Open command palette": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "workspaces:Manage workspace layouts": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "publish:Publish changes...": false,
+      "markdown-importer:Open format converter": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false,
+      "solo-rpg-toolkit:Solo RPG Toolkit": false,
+      "rpg-manager:RPG Manager": false,
+      "obsidian-regex-pipeline:Regex Rulesets": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "helpmate:HelpMate": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "fantasy-content-generator:Fantasy Generators": false,
+      "obsidian-custom-frames:Open Obsidian Forum": false,
+      "calendarium:Open Calendarium": false
+    }
+  },
+  "active": "1a9a89efa2182205",
+  "lastOpenFiles": [
+    "skocz/kitdb.json",
+    "kitrc.md",
+    "1-DM Toolkit/Home.md",
+    "1-DM Toolkit/Welcome.md",
+    "1-DM Toolkit/Journey Board.md",
+    "1-DM Toolkit/DM Board.md",
+    "1-DM Toolkit/DnD5e-DM Screen-2014.md",
+    "1-DM Toolkit/DnD5e-SideScreen-2014.md",
+    "1-Party/the Knuckleheads/Orochi.md",
+    "skocz/1-Party/the Knuckleheads/Orochi.html",
+    "1-Party/the Knuckleheads/Mordrin.md",
+    "skocz/1-Party/the Knuckleheads/Mordrin.html",
+    "skocz/1-Party/the Knuckleheads/Mantix Starkguard.html",
+    "1-Party/the Knuckleheads/Mantix Starkguard.md",
+    "skocz/1-Party/the Knuckleheads/Dingledorf.html",
+    "1-Party/the Knuckleheads/Dingledorf.md",
+    "skocz/1-Party/the Knuckleheads/Azrael Shadowsong.html",
+    "1-Party/the Knuckleheads/Azrael Shadowsong.md",
+    "1-Party/the Knuckleheads/the Knuckleheads.md",
+    "skocz/1-Party/the Knuckleheads/the Knuckleheads.html",
+    "skocz/1-Party/the Knuckleheads",
+    "skocz/1-Party",
+    "1-Session Journals/05-04-2025.md",
+    "skocz/1-Session Journals/05-04-2025.html",
+    "2-Campaign/Quests/Quests.md",
+    "2-Campaign/Quests/Band of Bandits.md",
+    "2-World/Riverbend/Riverbend.md",
+    "2-World/Faerun/Faerun.md",
+    "README.md",
+    "z_Templates/NewPlayerTemplate.md",
+    "z_Templates/establishedPlayer.md",
+    "z_Templates/getCharName.md",
+    "z_Templates/test.md",
+    "1-Party/NewPC.md",
+    "1-Party/testing.md",
+    "z_Assets/Placeholder Images/ImagePlaceholder.png",
+    "z_Assets/Images/Spit and Swallow.png",
+    "z_Assets/Images/partyAtTavern.png",
+    "z_Assets/Images/art-comm-adventuring-party-taking-at-rest-at-the-local-v0-h45g4bodxq1a1.webp",
+    "z_Assets/Images/Journey Board.png",
+    "z_Assets/Images/faerunMap.jpg",
+    "z_Assets/Images/RiverbendMap.png",
+    "z_Assets/Images/CaveMap.png",
+    "z_Assets/Images/TavernMap - Riverbend.png",
+    "z_Assets/Images/ForestMap.png",
+    "Untitled.canvas",
+    "0-Scratch Notes/Untitled.canvas"
+  ]
+}
